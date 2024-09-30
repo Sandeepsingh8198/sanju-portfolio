@@ -1,3 +1,7 @@
+/* Add these lines to your CSS file for Slick Slider */
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
 .App {
   text-align: center;
 }
@@ -36,3 +40,342 @@
     transform: rotate(360deg);
   }
 }
+/* src/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b5d051;
+  background: #000;
+  margin: 0;
+  padding: 20px 0px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover {
+  color: #b5d051;
+}
+ .bg_image_banner{
+   height: 100vh !important;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   justify-content: center;
+   
+ }
+ .inner_content h5{
+  color: #b5d051;
+  font-size: 32px;
+  font-weight: bold;
+ }
+ .inner_content h1 {
+  color: #ffffff;
+  font-size: 54px;
+  font-family: fantasy;
+  letter-spacing: 4px;
+}
+ .inner_content {
+  text-align: left;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.list_style {
+  padding: 0;
+}
+.list_style li {
+  color: #fff;
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+  border-left: 1px solid #ffffff75;
+}
+.list_style li span {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  padding-right: 25px;
+}
+
+/* About Me Css Start Here */
+
+.aboutbg{
+  background-color: #171A1D;
+}
+.aboutbg h1 {
+  padding-top: 2em;
+  color: #f6f8f9;
+  font-weight: 700;
+  font-size: 40px;
+}
+.aboutbg p {
+  color: #aaa;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: system-ui;
+  padding-inline: 28em;
+  padding-block: 2em;
+}
+
+/* Conact Us Css */
+
+    .container_signup {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    padding: 100px 45px;
+}
+.container_signup h2 {
+    color: #000;
+    font-family: serif;
+}
+.login-container {
+  background-color: #fff;
+  padding: 72px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="submit"] {
+  width: 100%;
+  padding: 13px;
+  margin: 2em 0;
+  border: 1px solid #cccccc7a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  background: transparent;
+  outline: none;
+  outline-color: #cccccc7a;
+}
+.wm-1 h6 {
+  color: #fff;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.wm-1 a {
+  color: #fff;
+  font-weight: 400;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+.form-control:focus{
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  box-shadow: 0px 0px 1px 1px #b5d051 !important;
+}
+.field-set textarea {
+  background: transparent;
+  height: 200px;
+  border: 1px solid #cccccc7a;
+  outline: none;
+  outline-color: #cccccc7a;
+}
+.form-control {
+  color: #fff !important;
+}
+.space-border {
+  background-color: #b5d051;
+  height: 1px;
+  width: 33px;
+  margin: 0 auto;
+  position: relative;
+}
+.space-border:before {
+  content: "";
+  position: absolute;
+  left: -48px;
+  background: #fff;
+  height: 1px !important;
+  width: 33px !important;
+}
+.space-border:after {
+  content: "";
+  position: absolute;
+  left: 47px;
+  background: #f0f8ffad;
+  height: 1px !important;
+  width: 33px !important;
+}
+  ::placeholder{
+    color: #fff !important;
+  }
+
+input[type="submit"] {
+    background-color: #b5d051;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 35px;
+    width: 30%;
+}
+input[type="submit"]:hover {
+    background-color: #000000;
+    transition: 0.3s ease-in;
+}
+.container_post {
+    display: flex;
+    gap: 30px;
+    padding-inline: 80px;
+}
+.container_post img{
+    width: 100%;
+}
+.conatctcenter_ {
+  text-align: left;
+  margin: 0;
+}
+.conatctcenter_ h1 {
+  padding-top: 2em;
+  color: #f6f8f9;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+/* About Css Start here */
+ 
+.max_width {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.bg_image_banner_about {
+  height: 100vh !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.marqBox marquee {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  padding-block: 50px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: rgba(255, 255, 255, .2);
+  font-family: system-ui;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 1px #B5D051;
+}
+
+/* What We Do Css Start Here */
+
+.skills__ h3 {
+  color: #fff !important;
+  font-size: 30px;
+  font-weight: 700;
+}
+.skills__ p {
+  color: #ffffff;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+}
+.skills__{
+  border-left: 1px solid grey;
+}
+.whatdc{
+    padding-top: 14em !important;
+}
+
+/* My Resume Css Start Here */
+.resume_bg{
+   background-color: #171A1D;
+}
+.resume_main h3{
+  font-weight: 700;
+}
+.fgjk {
+  text-align: start;
+  position: relative;
+  background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, 0) 100%);
+  padding: 5px;
+}
+.fgjk:before {
+  content: '';
+  background: #b5d051;
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  border-radius: 50%;
+  right: 38em;
+  bottom: -3px;
+  text-align: center;
+  padding-top: 10px;
+}
+.fgjk h4 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: monospace;
+}
+.fgjk span {
+  position: relative;
+  top: 7px;
+  right: 39px;
+}
+.dataresume h5 {
+  font-weight: 700;
+  margin-top: 20px;
+  display: block;
+  font-size: 18px;
+  text-transform: capitalize !important;
+}
+.dataresume h6 {
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #B5D051;
+  text-transform: capitalize !important;
+  letter-spacing: 1px;
+}
+.dataresume p {
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #bebebe;
+  line-height: 31px;
+}
+.dataresume {
+  text-align: left;
+  border-left: 1px solid #f5f5f552;
+}
+
