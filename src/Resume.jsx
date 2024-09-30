@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 
 function Resume() {
   return (
-    <div className="resume_bg h-100 pt-5">
+    <div className="resume_bg h-100 pt-5git config --global user.name">
       <div className="col-md-12 text-center wow fadeInUp text-white">
         <h1>My Resume</h1>
         <div className="space-border mt-4 mb-5"></div>
