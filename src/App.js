@@ -4,9 +4,10 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar"; // Import Navbar component
 import Home from "./Home"; // Import Banner component
 import About from "./About"; // The new About component
-import Contact from "./Contact"; // The new About component
+import Contact from "./Contact"; // The new Contact component
 import WhatIDo from "./WhatIDo"; // The new What I Do component
-import Resume from "./Resume"; // The new What I Do component
+import Resume from "./Resume"; // The new Resume component
+import Portfolio from "./Portfolio"; // The new Portfolio component
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/WhatIDo" element={<WhatIDo />} />
         <Route path="/Resume" element={<Resume />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
       </Routes>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
